@@ -1,0 +1,60 @@
+MONGO QUWries
+ • 
+ • $eq: Matches values that are equal to a specified value.
+ • $ne: Matches values that are not equal to a specified value.
+ • $gt: Matches values that are greater than a specified value.
+ • $gte: Matches values that are greater than or equal to a specified value.
+ • $lt: Matches values that are less than a specified value.
+ • $lte: Matches values that are less than or equal to a specified value.
+ • $in: Matches any of the values specified in an array.
+ • $nin: Matches values that are not in the specified array.
+ • $and: Performs a logical AND operation on an array of expressions.
+ • $or: Performs a logical OR operation on an array of expressions.
+ • $not: Performs a logical NOT operation on an expression.
+ • $exists: Matches documents that contain a specified field.
+ • $type: Matches documents where a field has a specific BSON data type.
+ • $regex: Matches documents where a field matches a specified regular expression.
+ • $size: Matches arrays with a specific number of elements.
+ • $all: Matches arrays that contain all the specified elements.
+ • $elemMatch: Matches documents that contain an element that matches specified criteria within an array.
+ • $slice: Projects a subset of elements from an array.
+ • $map: Applies an expression to each element in an array.
+
+ • $mod: Performs a modulo operation to select documents where the field is congruent to a specified modulo.
+ • $type: Matches documents where the field has a specific BSON data type.
+ • $in: Matches any of the values specified in an array.
+ • $nin: Matches values that are not in the specified array.
+ • $text: Performs text search in a text index.
+ • $size: Matches arrays with a specific number of elements.
+ • $all: Matches arrays that contain all the specified elements.
+ • $elemMatch: Matches documents that contain an element that matches specified criteria within an array.
+ • $pull: Removes elements from an array that match specified criteria.
+ • $push: Adds elements to an array field.
+ • $addToSet: Adds elements to an array only if they don't already exist in it.
+ • $pop: Removes the first or last element of an array.
+ • $each: Modifies an array field with multiple values.
+ • $slice: Projects a subset of elements from an array.
+ • $position: Specifies the position for adding elements in an array.
+ • $bit: Performs bitwise operations on numeric fields.
+ • $expr: Allows the use of aggregation expressions within query expressions.
+ • $jsonSchema: Validates documents against a specified JSON schema.
+ • $comment: Allows you to add comments to queries for documentation and analysis.
+ • $meta: Accesses metadata about text search results.
+ • $size: Matches arrays with a specific number of elements.
+ • $slice: Projects a subset of elements from an array.
+ • $elemMatch: Matches documents that contain an element that matches specified criteria within an array.
+ • $regex: Matches documents where a field matches a specified regular expression.
+ • $where: Allows you to write JavaScript expressions for more complex queries.
+ • $geoIntersects: Finds documents that intersect with a specified GeoJSON object.
+ • $geoWithin: Finds documents that are completely within a specified GeoJSON object.
+ • $geoNear: Performs a geospatial query, finding documents that are near a point.
+ • $maxDistance: Sets a maximum distance for a geospatial query.
+ • $allElementsTrue: Matches arrays where all elements are true for a given condition.
+ • $map: Applies an expression to each element in an array and returns the result.
+ • $reduce: Applies a binary expression to elements in an array and reduces it to a single value.
+ • $filter: Filters the elements in an array based on a condition.
+ • $range: Generates a sequence of numbers within a specified range.
+
+
+mongo console
+{buildVersion: {$regex: /\.10\./}}
